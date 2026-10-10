@@ -139,8 +139,8 @@ if (themeToggle) {
 const translations = {
   en: {
     meta: {
-      title: 'Mohamed Hamed Sallam | Software Engineer',
-      description: 'Portfolio of Mohamed Hamed Mohamed Sallam, Software Engineer.'
+      title: 'Mohamed Hamed Sallam | IT Support & Cybersecurity Professional',
+      description: 'Portfolio of Mohamed Hamed Sallam, an IT Support Engineer and System Administration professional focused on enterprise systems, networking, and cybersecurity.'
     },
     logo: 'ENG MOHAMED SALLAM',
     nav: {
@@ -165,7 +165,7 @@ const translations = {
     hero: {
       greeting: "Hello, It's Me",
       titlePrefix: "And I'm",
-      description: 'Building robust software, modern web applications, and seamless user experiences. "Zero Trust" was implemented in the systems for the first time; additionally, numerous systems at public universities were developed, incorporating leading cybersecurity measures into their architecture.',
+      description: 'IT Support Engineer and System Administration professional focused on enterprise systems, networking, technical troubleshooting, and cybersecurity. My work also includes university systems, web applications, and documented Zero Trust research.',
       download: 'Download CV',
       contact: 'Contact Me'
     },
@@ -326,7 +326,7 @@ const translations = {
       toastUnliked: 'Like removed.'
     },
     footer: 'Copyright &copy;| All Rights Reserved by ENG Mohamed Hamed Sallam.',
-    typed: ['a Software Engineer', 'a Full Stack Developer', 'an IT Specialist'],
+    typed: ['an IT Support Engineer', 'a System Administrator', 'a Cybersecurity Professional'],
     labels: { langSelect: 'Select Language', themeToggle: 'Toggle Theme', menuToggle: 'Toggle Menu' },
     languageOptions: { en: 'English', ar: 'Arabic', ru: 'Russian' },
     images: { profile: 'Mohamed Hamed Sallam Profile', engDerman: 'ENG-DERMAN Software Solutions Logo', mnu: 'Mansoura National University Logo', intilaq: 'Intilaq Group (IG) Logo', projectErp: 'ERP System Support', projectNetwork: 'Network Troubleshooting Lab', projectCyber: 'New Students Welcome Event', researchMain: 'Research commemorative photo - Mansoura University Faculty of Computers and Information Sciences' }
