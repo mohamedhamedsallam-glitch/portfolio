@@ -1,0 +1,14 @@
+# Local/editor files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Backup and source-only files
+*.bak
+*.CR3
+*.cr3
+Hannah-Personal-Portfolio-main/
+my brotoflio (Copy)/
+
+# Private working documents are not part of the static production build.
+Mohamed_Hamed_Sallam_CV_Data.md

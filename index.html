@@ -1,0 +1,2213 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Hamed Sallam | Software Engineer</title>
+    <meta name="description" content="Portfolio of Mohamed Hamed Sallam, a software engineer building secure systems, modern web applications, and reliable digital experiences.">
+    <meta name="author" content="Mohamed Hamed Sallam">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#061426">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mohamed Hamed Sallam | Software Engineer">
+    <meta property="og:description" content="Explore Mohamed Hamed Sallam's software engineering portfolio, projects, research, and experience.">
+    <meta property="og:image" content="assets/main_photo.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Animation -->
+    <div class="particles-bg" id="particles-js"></div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <script>
+        (function() {
+            function hidePreloader() {
+                var p = document.getElementById('preloader');
+                if (p && p.style.display !== 'none') {
+                    p.style.opacity = '0';
+                    setTimeout(function() { p.style.display = 'none'; }, 400);
+                }
+            }
+            if (document.readyState === 'complete' || document.readyState === 'interactive') {
+                setTimeout(hidePreloader, 200);
+            } else {
+                document.addEventListener('DOMContentLoaded', hidePreloader);
+                window.addEventListener('load', hidePreloader);
+                setTimeout(hidePreloader, 1000);
+            }
+        })();
+    </script>
+
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <a href="#home" class="logo">
+            <img src="assets/logo.jpg" alt="Mohamed Hamed Sallam Logo" class="logo-img">
+            <span class="logo-text">ENG MOHAMED SALLAM <span>.</span></span>
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active" data-i18n="nav_home">Home</a>
+            <a href="#about" data-i18n="nav_about">About</a>
+            <a href="#skills" data-i18n="nav_skills">Skills</a>
+            <a href="#experience" data-i18n="nav_experience">Experience</a>
+            <a href="#projects" data-i18n="nav_projects">Projects</a>
+            <div class="nav-dropdown">
+                <button type="button" class="dropdown-trigger" data-i18n="nav_training" aria-expanded="false"
+                    aria-haspopup="true">
+                    Training <i class='bx bx-chevron-down'></i>
+                </button>
+                <div class="nav-dropdown-content">
+                    <a href="#" class="open-modal-btn" data-modal="modal-zahraa" data-i18n="nav_training_zahraa">Zahraa
+                        System Training</a>
+                    <a href="#" class="open-modal-btn" data-modal="modal-erp" data-i18n="nav_training_erp">ERP HR System
+                        Training</a>
+                    <a href="#" class="open-modal-btn" data-modal="modal-erp-finance"
+                        data-i18n="nav_training_erp_finance">ERP Financial System
+                        Training</a>
+                    <a href="#" class="open-modal-btn" data-modal="modal-web" data-i18n="nav_training_web">Programmers
+                        Website Training</a>
+                </div>
+            </div>
+            <div class="nav-dropdown nav-dropdown-more">
+                <button type="button" class="dropdown-trigger" data-i18n="nav_more" aria-expanded="false"
+                    aria-haspopup="true">
+                    More <i class='bx bx-chevron-down'></i>
+                </button>
+                <div class="nav-dropdown-content">
+                    <a href="#education" data-i18n="nav_education">Education</a>
+                    <a href="#" class="open-modal-btn" data-modal="modal-datacenter" data-i18n="nav_datacenter">MNU DATA
+                        CENTER</a>
+                    <a href="#research" data-i18n="nav_research">Research</a>
+                    <a href="#certifications" data-i18n="nav_certifications">Certifications</a>
+                </div>
+            </div>
+            <a href="#contact" class="nav-cta" data-i18n="nav_contact">Contact</a>
+        </nav>
+        <div class="header-controls">
+            <select id="lang-select" aria-label="Select Language">
+                <option value="en">EN </option>
+                <option value="ar">AR</option>
+                <option value="ru">RU</option>
+            </select>
+            <div class="theme-toggle" aria-label="Toggle Theme">
+                <i class='bx bx-sun' id="theme-icon"></i>
+            </div>
+            <i class='bx bx-menu' id="menu-icon" aria-label="Toggle Menu"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 data-i18n="hero_greeting">Hello, It's Me</h3>
+            <h1>Mohamed Hamed Sallam</h1>
+            <h3><span data-i18n="hero_title_prefix">And I'm</span> <span class="multiple-text"></span></h3>
+            <p data-i18n="hero_desc">Building robust software, modern web applications, and seamless user experiences.
+                "Zero Trust" was implemented in the systems for the first time; additionally, numerous systems at public
+                universities were developed, incorporating leading cybersecurity measures into their architecture.</p>
+            <div class="cta">
+                <a href="Mohamed_Hamed_Sallam_CV.doc" class="cta-1" download="Mohamed_Hamed_Sallam_CV.doc" data-i18n="hero_download">Download CV</a>
+                <a href="#contact" class="cta-2" data-i18n="hero_contact">Contact Me</a>
+            </div>
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/mohamed-hamed-sallam-87a15b3a0" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/mohamedhamedsallam-glitch" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="mailto:mohamedhamedsallam14@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <img src="assets/main_photo.jpg" alt="Mohamed Hamed Sallam Profile" fetchpriority="high" decoding="async">
+            </div>
+            <!-- Floating Tech Icons -->
+            <div class="floating-icon icon-1"><i class='bx bx-server'></i></div>
+            <div class="floating-icon icon-2"><i class='bx bx-network-chart'></i></div>
+            <div class="floating-icon icon-3"><i class='bx bx-cloud'></i></div>
+        </div>
+    </section>
+
+    <!-- Training Modals (Hidden by default, triggered from navbar dropdown) -->
+    <div id="modal-zahraa" class="training-modal" aria-hidden="true">
+        <div class="training-modal-card">
+            <span class="training-modal-close" data-modal="modal-zahraa">&times;</span>
+            <div class="training-modal-body">
+                <!-- Zahraa Panel -->
+                <div class="training-panel zahraa-panel">
+                    <div class="training-copy">
+                        <span class="training-badge">
+                            <img src="assets/mansoura_university_logo.png" alt="شعار جامعة المنصورة"
+                                class="training-badge-logo" loading="lazy" decoding="async">
+                            <img src="assets/zahraa_logo.png" alt="شعار نظام الزهراء" class="training-badge-logo" loading="lazy" decoding="async">
+                            <span class="training-kicker-text" data-i18n="training_kicker">تدريب الموظفين على
+                                السيستم</span>
+                        </span>
+                        <h3 class="training-title" data-i18n="training_title">تفعيل نظام الزهراء بعد التحديث الجديد
+                            لجامعة المنصورة الأهلية</h3>
+                        <p class="training-intro" data-i18n="training_intro">صور من تدريب الموظفين على السيستم لتفعيل
+                            نظام الزهراء بعد التحديث الجديد لجامعة المنصورة الأهلية.</p>
+                    </div>
+                    <div class="training-slider-wrapper" aria-label="Training Al-Zahraa images slider">
+                        <div class="training-showcase">
+                            <div class="training-slides">
+                                <div class="training-slide active" data-index="0">
+                                    <img src="assets/صور التدريب/0F9A8692.JPG"
+                                        alt="تدريب الموظفين على السيستم - صورة 1" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريبية 1</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="1">
+                                    <img src="assets/صور التدريب/0F9A8681.JPG"
+                                        alt="تدريب الموظفين على السيستم - صورة 2" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريبية 2</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="2">
+                                    <img src="assets/صور التدريب/0F9A8682.JPG"
+                                        alt="تدريب الموظفين على السيستم - صورة 3" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريبية 3</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="3">
+                                    <img src="assets/صور التدريب/0F9A8685.JPG"
+                                        alt="تدريب الموظفين على السيستم - صورة 4" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريبية 4</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="4">
+                                    <img src="assets/صور التدريب/0F9A8687.JPG"
+                                        alt="تدريب الموظفين على السيستم - صورة 5" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريبية 5</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="5">
+                                    <img src="assets/صور التدريب/0F9A8688.JPG"
+                                        alt="تدريب الموظفين على السيستم - صورة 6" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريبية 6</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="6">
+                                    <img src="assets/صور التدريب/0F9A8689.JPG"
+                                        alt="تدريب الموظفين على السيستم - صورة 7" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريبية 7</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="7">
+                                    <img src="assets/صور التدريب/0F9A8690.JPG"
+                                        alt="تدريب الموظفين على السيستم - صورة 8" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريبية 8</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="8">
+                                    <img src="assets/صور التدريب/0F9A8691.JPG"
+                                        alt="تدريب الموظفين على السيستم - صورة 9" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريبية 9</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide Navigation Controls (Prev, Play/Pause, Next) -->
+                            <div class="training-controls">
+                                <button class="training-ctrl-btn prev-btn" aria-label="Previous Slide">
+                                    <i class='bx bx-chevron-left'></i>
+                                </button>
+                                <button class="training-ctrl-btn play-pause-btn" aria-label="Play or Pause Autoplay">
+                                    <i class='bx bx-pause'></i>
+                                </button>
+                                <button class="training-ctrl-btn next-btn" aria-label="Next Slide">
+                                    <i class='bx bx-chevron-right'></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Thumbnails -->
+                        <div class="training-thumbnails">
+                            <div class="training-thumb active" data-index="0">
+                                <img src="assets/صور التدريب/0F9A8692.JPG" alt="جلسة تدريبية 1" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="1">
+                                <img src="assets/صور التدريب/0F9A8681.JPG" alt="جلسة تدريبية 2" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="2">
+                                <img src="assets/صور التدريب/0F9A8682.JPG" alt="جلسة تدريبية 3" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="3">
+                                <img src="assets/صور التدريب/0F9A8685.JPG" alt="جلسة تدريبية 4" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="4">
+                                <img src="assets/صور التدريب/0F9A8687.JPG" alt="جلسة تدريبية 5" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="5">
+                                <img src="assets/صور التدريب/0F9A8688.JPG" alt="جلسة تدريبية 6" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="6">
+                                <img src="assets/صور التدريب/0F9A8689.JPG" alt="جلسة تدريبية 7" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="7">
+                                <img src="assets/صور التدريب/0F9A8690.JPG" alt="جلسة تدريبية 8" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="8">
+                                <img src="assets/صور التدريب/0F9A8691.JPG" alt="جلسة تدريبية 9" loading="lazy" decoding="async">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-erp" class="training-modal" aria-hidden="true">
+        <div class="training-modal-card">
+            <span class="training-modal-close" data-modal="modal-erp">&times;</span>
+            <div class="training-modal-body">
+                <!-- ERP HR Panel -->
+                <div class="training-panel erp-panel">
+                    <div class="training-copy">
+                        <span class="training-badge">
+                            <img src="assets/mansoura_university_logo.png" alt="شعار جامعة المنصورة"
+                                class="training-badge-logo" loading="lazy" decoding="async">
+                            <img src="assets/mnu_logo_cropped.png" alt="شعار نظام MNU ERP" class="training-badge-logo" loading="lazy" decoding="async">
+                            <span class="training-kicker-text-hr" data-i18n="training_kicker_hr">التدريب على نظام HR في
+                                الـ ERP</span>
+                        </span>
+                        <h3 class="training-title-hr" data-i18n="training_title_hr">دورة تدريب الموارد البشرية HR على
+                            نظام الـ ERP</h3>
+                        <div class="training-intro-hr" data-i18n="training_intro_hr">صور من تدريب موظفي إدارة الموارد
+                            البشرية (HR) لجامعة المنصورة الأهلية على النظام الإداري الموحد ERP.</div>
+                    </div>
+                    <div class="training-slider-wrapper" aria-label="Training ERP HR images slider">
+                        <div class="training-showcase">
+                            <div class="training-slides">
+                                <div class="training-slide active" data-index="0">
+                                    <img src="assets/نظام/0F9A8693.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 1" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 1</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="1">
+                                    <img src="assets/نظام/0F9A8694.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 2" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 2</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="2">
+                                    <img src="assets/نظام/0F9A8695.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 3" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 3</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="3">
+                                    <img src="assets/نظام/0F9A8697.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 4" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 4</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="4">
+                                    <img src="assets/نظام/0F9A8698.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 5" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 5</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="5">
+                                    <img src="assets/نظام/0F9A8699.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 6" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 6</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="6">
+                                    <img src="assets/نظام/0F9A8700.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 7" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 7</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="7">
+                                    <img src="assets/نظام/0F9A8701.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 8" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 8</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="8">
+                                    <img src="assets/نظام/0F9A8702.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 9" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 9</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="9">
+                                    <img src="assets/نظام/0F9A8703.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 10" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 10</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="10">
+                                    <img src="assets/نظام/0F9A8704.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 11" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 11</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="11">
+                                    <img src="assets/نظام/0F9A8705.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 12" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 12</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="12">
+                                    <img src="assets/نظام/0F9A8706.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 13" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 13</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="13">
+                                    <img src="assets/نظام/0F9A8707.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 14" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP الموارد البشرية 14</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide Navigation Controls (Prev, Play/Pause, Next) -->
+                            <div class="training-controls">
+                                <button class="training-ctrl-btn prev-btn" aria-label="Previous Slide">
+                                    <i class='bx bx-chevron-left'></i>
+                                </button>
+                                <button class="training-ctrl-btn play-pause-btn" aria-label="Play or Pause Autoplay">
+                                    <i class='bx bx-pause'></i>
+                                </button>
+                                <button class="training-ctrl-btn next-btn" aria-label="Next Slide">
+                                    <i class='bx bx-chevron-right'></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Thumbnails -->
+                        <div class="training-thumbnails">
+                            <div class="training-thumb active" data-index="0">
+                                <img src="assets/نظام/0F9A8693.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 1" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="1">
+                                <img src="assets/نظام/0F9A8694.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 2" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="2">
+                                <img src="assets/نظام/0F9A8695.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 3" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="3">
+                                <img src="assets/نظام/0F9A8697.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 4" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="4">
+                                <img src="assets/نظام/0F9A8698.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 5" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="5">
+                                <img src="assets/نظام/0F9A8699.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 6" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="6">
+                                <img src="assets/نظام/0F9A8700.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 7" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="7">
+                                <img src="assets/نظام/0F9A8701.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 8" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="8">
+                                <img src="assets/نظام/0F9A8702.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 9" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="9">
+                                <img src="assets/نظام/0F9A8703.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 10" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="10">
+                                <img src="assets/نظام/0F9A8704.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 11" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="11">
+                                <img src="assets/نظام/0F9A8705.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 12" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="12">
+                                <img src="assets/نظام/0F9A8706.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 13" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="13">
+                                <img src="assets/نظام/0F9A8707.JPG" alt="جلسة تدريب الـ ERP الموارد البشرية 14" loading="lazy" decoding="async">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-web" class="training-modal" aria-hidden="true">
+        <div class="training-modal-card">
+            <span class="training-modal-close" data-modal="modal-web">&times;</span>
+            <div class="training-modal-body">
+                <div class="training-panel web-panel">
+                    <div class="training-copy">
+                        <span class="training-badge">
+                            <img src="assets/mansoura_university_logo.png" alt="شعار جامعة المنصورة"
+                                class="training-badge-logo" loading="lazy" decoding="async">
+                            <img src="assets/mnu_logo_cropped.png" alt="Mansoura National University Logo"
+                                class="training-badge-logo" loading="lazy" decoding="async">
+                            <span class="training-kicker-text">Web Training Program</span>
+                        </span>
+                        <h3 class="training-title">Programmers Training on the University Electronic Website</h3>
+                        <p class="training-intro">A dedicated training post for programmers focused on operating,
+                            maintaining, and improving the university electronic website workflow.</p>
+                    </div>
+                    <div class="training-slider-wrapper" aria-label="Programmers website training images slider">
+                        <div class="training-showcase">
+                            <div class="training-slides">
+                                <div class="training-slide active" data-index="0">
+                                    <img src="assets/web/0F9A0736.JPG" alt="Programmers website training session 1" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Programmers Training Session 1</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="1">
+                                    <img src="assets/web/0F9A0702.JPG" alt="Programmers website training session 2" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Programmers Training Session 2</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="2">
+                                    <img src="assets/web/0F9A0703.JPG" alt="Programmers website training session 3" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Programmers Training Session 3</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="3">
+                                    <img src="assets/web/0F9A0725.JPG" alt="Programmers website training session 4" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Programmers Training Session 4</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="4">
+                                    <img src="assets/web/0F9A0738.JPG" alt="Programmers website training session 5" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Programmers Training Session 5</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="5">
+                                    <img src="assets/web/0F9A0739.JPG" alt="Programmers website training session 6" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Programmers Training Session 6</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="training-controls">
+                                <button class="training-ctrl-btn prev-btn" aria-label="Previous Slide">
+                                    <i class='bx bx-chevron-left'></i>
+                                </button>
+                                <button class="training-ctrl-btn play-pause-btn" aria-label="Play or Pause Autoplay">
+                                    <i class='bx bx-pause'></i>
+                                </button>
+                                <button class="training-ctrl-btn next-btn" aria-label="Next Slide">
+                                    <i class='bx bx-chevron-right'></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="training-thumbnails">
+                            <div class="training-thumb active" data-index="0">
+                                <img src="assets/web/0F9A0736.JPG" alt="Programmers training thumbnail 1" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="1">
+                                <img src="assets/web/0F9A0702.JPG" alt="Programmers training thumbnail 2" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="2">
+                                <img src="assets/web/0F9A0703.JPG" alt="Programmers training thumbnail 3" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="3">
+                                <img src="assets/web/0F9A0725.JPG" alt="Programmers training thumbnail 4" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="4">
+                                <img src="assets/web/0F9A0738.JPG" alt="Programmers training thumbnail 5" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="5">
+                                <img src="assets/web/0F9A0739.JPG" alt="Programmers training thumbnail 6" loading="lazy" decoding="async">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ERP Financial System Training Modal -->
+    <div id="modal-erp-finance" class="training-modal" aria-hidden="true">
+        <div class="training-modal-card">
+            <span class="training-modal-close" data-modal="modal-erp-finance">&times;</span>
+            <div class="training-modal-body">
+                <!-- ERP Financial Panel -->
+                <div class="training-panel erp-finance-panel">
+                    <div class="training-copy">
+                        <span class="training-badge">
+                            <img src="assets/mansoura_university_logo.png" alt="شعار جامعة المنصورة"
+                                class="training-badge-logo" loading="lazy" decoding="async">
+                            <img src="assets/mnu_logo_cropped.png" alt="شعار نظام MNU ERP المالية"
+                                class="training-badge-logo" loading="lazy" decoding="async">
+                            <span class="training-kicker-text-finance" data-i18n="training_kicker_finance">التدريب على
+                                نظام ERP المالية والمحاسبية</span>
+                        </span>
+                        <h3 class="training-title-finance" data-i18n="training_title_finance">تدريب مديري الموارد
+                            المالية على النظام الإداري الموحد ERP</h3>
+                        <div class="training-intro-finance" data-i18n="training_intro_finance">
+                            <p>As part of the preparations for the upcoming academic year, I had the opportunity to meet
+                                with the Financial Resources Managers and deliver training on the ERP Financial and
+                                Accounting System. The session focused on key financial processes, system operations,
+                                and best practices to ensure efficient management of financial and accounting
+                                activities, support accurate financial reporting, and enhance operational efficiency.
+                            </p>
+                            <p>This initiative reflects our ongoing commitment to digital transformation, continuous
+                                improvement, and the development of effective administrative processes in preparation
+                                for the new academic year.</p>
+                        </div>
+                    </div>
+                    <div class="training-slider-wrapper" aria-label="Training ERP Financial System images slider">
+                        <div class="training-showcase">
+                            <div class="training-slides">
+                                <!-- Cover Slide: 0F9A8822.jpg -->
+                                <div class="training-slide active" data-index="0">
+                                    <img src="assets/نظام ERP المالية/0F9A8822.jpg"
+                                        alt="ERP Financial Training Session 1 - Cover" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 1 (الواجهة الرئيسية)</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="1">
+                                    <img src="assets/نظام ERP المالية/0F9A8790.jpg"
+                                        alt="ERP Financial Training Session 2" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 2</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="2">
+                                    <img src="assets/نظام ERP المالية/0F9A8791.jpg"
+                                        alt="ERP Financial Training Session 3" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 3</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="3">
+                                    <img src="assets/نظام ERP المالية/0F9A8794.jpg"
+                                        alt="ERP Financial Training Session 4" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 4</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="4">
+                                    <img src="assets/نظام ERP المالية/0F9A8795.jpg"
+                                        alt="ERP Financial Training Session 5" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 5</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="5">
+                                    <img src="assets/نظام ERP المالية/0F9A8796.jpg"
+                                        alt="ERP Financial Training Session 6" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 6</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="6">
+                                    <img src="assets/نظام ERP المالية/0F9A8797.jpg"
+                                        alt="ERP Financial Training Session 7" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 7</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="7">
+                                    <img src="assets/نظام ERP المالية/0F9A8807.jpg"
+                                        alt="ERP Financial Training Session 8" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 8</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="8">
+                                    <img src="assets/نظام ERP المالية/0F9A8810.jpg"
+                                        alt="ERP Financial Training Session 9" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 9</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="9">
+                                    <img src="assets/نظام ERP المالية/0F9A8811.jpg"
+                                        alt="ERP Financial Training Session 10" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 10</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="10">
+                                    <img src="assets/نظام ERP المالية/0F9A8812.jpg"
+                                        alt="ERP Financial Training Session 11" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 11</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="11">
+                                    <img src="assets/نظام ERP المالية/0F9A8813.jpg"
+                                        alt="ERP Financial Training Session 12" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 12</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="12">
+                                    <img src="assets/نظام ERP المالية/0F9A8816.jpg"
+                                        alt="ERP Financial Training Session 13" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 13</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="13">
+                                    <img src="assets/نظام ERP المالية/0F9A8817.jpg"
+                                        alt="ERP Financial Training Session 14" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 14</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="14">
+                                    <img src="assets/نظام ERP المالية/0F9A8819.jpg"
+                                        alt="ERP Financial Training Session 15" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 15</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="15">
+                                    <img src="assets/نظام ERP المالية/0F9A8820.jpg"
+                                        alt="ERP Financial Training Session 16" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 16</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="16">
+                                    <img src="assets/نظام ERP المالية/0F9A8821.jpg"
+                                        alt="ERP Financial Training Session 17" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 17</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="17">
+                                    <img src="assets/نظام ERP المالية/0F9A8823.jpg"
+                                        alt="ERP Financial Training Session 18" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 18</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="18">
+                                    <img src="assets/نظام ERP المالية/0F9A8824.jpg"
+                                        alt="ERP Financial Training Session 19" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 19</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="19">
+                                    <img src="assets/نظام ERP المالية/0F9A8825.jpg"
+                                        alt="ERP Financial Training Session 20" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>جلسة تدريب الـ ERP المالية 20</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide Navigation Controls -->
+                            <div class="training-controls">
+                                <button class="training-ctrl-btn prev-btn" aria-label="Previous Slide">
+                                    <i class='bx bx-chevron-left'></i>
+                                </button>
+                                <button class="training-ctrl-btn play-pause-btn" aria-label="Play or Pause Autoplay">
+                                    <i class='bx bx-pause'></i>
+                                </button>
+                                <button class="training-ctrl-btn next-btn" aria-label="Next Slide">
+                                    <i class='bx bx-chevron-right'></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Thumbnails -->
+                        <div class="training-thumbnails">
+                            <div class="training-thumb active" data-index="0">
+                                <img src="assets/نظام ERP المالية/0F9A8822.jpg" alt="ERP Financial Training Cover" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="1">
+                                <img src="assets/نظام ERP المالية/0F9A8790.jpg" alt="ERP Financial Training 2" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="2">
+                                <img src="assets/نظام ERP المالية/0F9A8791.jpg" alt="ERP Financial Training 3" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="3">
+                                <img src="assets/نظام ERP المالية/0F9A8794.jpg" alt="ERP Financial Training 4" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="4">
+                                <img src="assets/نظام ERP المالية/0F9A8795.jpg" alt="ERP Financial Training 5" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="5">
+                                <img src="assets/نظام ERP المالية/0F9A8796.jpg" alt="ERP Financial Training 6" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="6">
+                                <img src="assets/نظام ERP المالية/0F9A8797.jpg" alt="ERP Financial Training 7" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="7">
+                                <img src="assets/نظام ERP المالية/0F9A8807.jpg" alt="ERP Financial Training 8" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="8">
+                                <img src="assets/نظام ERP المالية/0F9A8810.jpg" alt="ERP Financial Training 9" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="9">
+                                <img src="assets/نظام ERP المالية/0F9A8811.jpg" alt="ERP Financial Training 10" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="10">
+                                <img src="assets/نظام ERP المالية/0F9A8812.jpg" alt="ERP Financial Training 11" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="11">
+                                <img src="assets/نظام ERP المالية/0F9A8813.jpg" alt="ERP Financial Training 12" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="12">
+                                <img src="assets/نظام ERP المالية/0F9A8816.jpg" alt="ERP Financial Training 13" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="13">
+                                <img src="assets/نظام ERP المالية/0F9A8817.jpg" alt="ERP Financial Training 14" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="14">
+                                <img src="assets/نظام ERP المالية/0F9A8819.jpg" alt="ERP Financial Training 15" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="15">
+                                <img src="assets/نظام ERP المالية/0F9A8820.jpg" alt="ERP Financial Training 16" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="16">
+                                <img src="assets/نظام ERP المالية/0F9A8821.jpg" alt="ERP Financial Training 17" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="17">
+                                <img src="assets/نظام ERP المالية/0F9A8823.jpg" alt="ERP Financial Training 18" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="18">
+                                <img src="assets/نظام ERP المالية/0F9A8824.jpg" alt="ERP Financial Training 19" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="19">
+                                <img src="assets/نظام ERP المالية/0F9A8825.jpg" alt="ERP Financial Training 20" loading="lazy" decoding="async">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Center Handover Project Modal -->
+    <div id="modal-datacenter" class="training-modal" aria-hidden="true">
+        <div class="training-modal-card">
+            <span class="training-modal-close" data-modal="modal-datacenter">&times;</span>
+            <div class="training-modal-body">
+                <!-- Data Center Panel -->
+                <div class="training-panel datacenter-panel">
+                    <div class="training-copy">
+                        <span class="training-badge">
+                            <img src="assets/mansoura_university_logo.png" alt="Mansoura University Logo"
+                                class="training-badge-logo" loading="lazy" decoding="async">
+                            <img src="assets/mnu_logo_cropped.png" alt="MNU Logo" class="training-badge-logo" loading="lazy" decoding="async">
+                            <span class="training-kicker-text-dc" data-i18n="datacenter_kicker">MNU DATA CENTER |
+                                Commissioning & Handover</span>
+                        </span>
+                        <h3 class="training-title-dc" data-i18n="datacenter_title">MNU DATA CENTER - Preliminary
+                            Acceptance & Handover</h3>
+                        <div class="training-intro-dc" data-i18n="datacenter_intro">
+                            <p> <strong>Major Milestone Achieved: Preliminary Handover of the State-of-the-Art MNU
+                                    DATA CENTER!</strong> </p>
+                            <p>I am thrilled to announce the successful completion and preliminary acceptance of our new
+                                enterprise-grade Data Center facility. This critical milestone represents months of
+                                meticulous engineering, infrastructure deployment, and rigorous testing to build a
+                                robust, scalable, and highly available core foundation.</p>
+                            <p> <strong>Key Infrastructure & Technical Highlights:</strong></p>
+                            <ul>
+                                <li> <strong>Rack Deployment & Cabling Excellence:</strong> High-density rack
+                                    enclosures with structured cable routing, optical fiber backbones, and color-coded
+                                    patch panels for optimal thermal management.</li>
+                                <li> <strong>Precision Cooling & Environmental Control:</strong> Smart HVAC precision
+                                    cooling units maintaining strict humidity and temperature thresholds for peak server
+                                    efficiency.</li>
+                                <li> <strong>Power Redundancy & UPS Systems:</strong> Dual-bus power distribution,
+                                    redundant UPS battery banks, and automatic transfer switches ensuring 99.999% uptime
+                                    reliability.</li>
+                                <li> <strong>Zero-Trust Security & Access Control:</strong> Multi-factor physical
+                                    access control, biometric authentication, and 24/7 CCTV surveillance integration.
+                                </li>
+                                <li> <strong>Site Acceptance Testing (SAT):</strong> Rigorous load testing, thermal
+                                    imaging audits, and seamless emergency power cutover simulations.</li>
+                            </ul>
+                            <p>Deep gratitude to the engineering teams, contractors, and leadership whose collaborative
+                                dedication made this milestone possible. Ready to power the next generation of digital
+                                services! </p>
+                        </div>
+                    </div>
+                    <div class="training-slider-wrapper" aria-label="Data Center project images slider">
+                        <div class="training-showcase">
+                            <div class="training-slides">
+                                <!-- Cover Slide: WhatsApp Image 2026-08-13 at 15.12.24.jpeg -->
+                                <div class="training-slide active" data-index="0">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.24.jpeg"
+                                        alt="Data Center Handover - Cover Photo" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Data Center Handover (Cover Photo)</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="1">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.16.jpeg"
+                                        alt="Data Center Photo 2" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Data Center Infrastructure Inspection 1</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="2">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.17.jpeg"
+                                        alt="Data Center Photo 3" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Data Center Infrastructure Inspection 2</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="3">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.18 (1).jpeg"
+                                        alt="Data Center Photo 4" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Rack Mount & Cabling Overview 1</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="4">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.18.jpeg"
+                                        alt="Data Center Photo 5" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Rack Mount & Cabling Overview 2</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="5">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.19.jpeg"
+                                        alt="Data Center Photo 6" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Server Rack Power & UPS Connections</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="6">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.21 (1).jpeg"
+                                        alt="Data Center Photo 7" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Precision Air Conditioning & Cooling Unit</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="7">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.21.jpeg"
+                                        alt="Data Center Photo 8" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Network Switches & Optical Fiber Termination</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="8">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.22 (1).jpeg"
+                                        alt="Data Center Photo 9" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Power Distribution Unit (PDU) Setup</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="9">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.22.jpeg"
+                                        alt="Data Center Photo 10" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Main Server Room Corridor</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="10">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.23.jpeg"
+                                        alt="Data Center Photo 11" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Fire Suppression & Environmental Control System</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="11">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.24 (1).jpeg"
+                                        alt="Data Center Photo 12" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Technical Acceptance & Inspection Team</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="12">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.24 (2).jpeg"
+                                        alt="Data Center Photo 13" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Data Center Cabling Management Detail</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="13">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.25 (1).jpeg"
+                                        alt="Data Center Photo 14" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>High-Speed Fiber Patch Panel</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="14">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.25.jpeg"
+                                        alt="Data Center Photo 15" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Server Cabinet Cable Routing</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="15">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.26.jpeg"
+                                        alt="Data Center Photo 16" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Emergency Backup Power Panel</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="16">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.27 (1).jpeg"
+                                        alt="Data Center Photo 17" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Data Center Hall Lighting & Architecture</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="17">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.27 (2).jpeg"
+                                        alt="Data Center Photo 18" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Core Router & Firewall Enclosure</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="18">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.27.jpeg"
+                                        alt="Data Center Photo 19" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>UPS Battery Room Installation</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="19">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.28.jpeg"
+                                        alt="Data Center Photo 20" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Environmental Monitoring Sensor Display</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="20">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.29.jpeg"
+                                        alt="Data Center Photo 21" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Rack Airflow Containment System</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="21">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.30.jpeg"
+                                        alt="Data Center Photo 22" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Access Control & Biometric Door Inspection</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="22">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.31.jpeg"
+                                        alt="Data Center Photo 23" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Server Chassis Integration Testing</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="23">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.33.jpeg"
+                                        alt="Data Center Photo 24" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>High-Voltage Power Transfer Switch</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="24">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.34.jpeg"
+                                        alt="Data Center Photo 25" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Pre-Commissioning Inspection Checklist</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="25">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.35.jpeg"
+                                        alt="Data Center Photo 26" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Data Center Command & Control Desk</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="26">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.36.jpeg"
+                                        alt="Data Center Photo 27" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Structured Cable Tray Overhead Assembly</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="27">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.38.jpeg"
+                                        alt="Data Center Photo 28" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Data Center Network Topology Sign-off</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="28">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.40.jpeg"
+                                        alt="Data Center Photo 29" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>CCTV & Perimeter Security Camera Array</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="29">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.42 (1).jpeg"
+                                        alt="Data Center Photo 30" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Final Site Acceptance Signatures & Handover</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="30">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.42.jpeg"
+                                        alt="Data Center Photo 31" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Data Center Core Infrastructure Overview</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="31">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.44.jpeg"
+                                        alt="Data Center Photo 32" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Precision Airflow Thermal Test Result</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="32">
+                                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.45.jpeg"
+                                        alt="Data Center Photo 33" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Preliminary Handover Celebration & Commemorative Moment</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide Controls -->
+                            <div class="training-controls">
+                                <button class="training-ctrl-btn prev-btn" aria-label="Previous Slide">
+                                    <i class='bx bx-chevron-left'></i>
+                                </button>
+                                <button class="training-ctrl-btn play-pause-btn" aria-label="Play or Pause Autoplay">
+                                    <i class='bx bx-pause'></i>
+                                </button>
+                                <button class="training-ctrl-btn next-btn" aria-label="Next Slide">
+                                    <i class='bx bx-chevron-right'></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Thumbnails -->
+                        <div class="training-thumbnails" style="max-height: 180px; overflow-y: auto;">
+                            <div class="training-thumb active" data-index="0">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.24.jpeg"
+                                    alt="Cover Photo" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="1">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.16.jpeg"
+                                    alt="DC Photo 2" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="2">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.17.jpeg"
+                                    alt="DC Photo 3" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="3">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.18 (1).jpeg"
+                                    alt="DC Photo 4" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="4">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.18.jpeg"
+                                    alt="DC Photo 5" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="5">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.19.jpeg"
+                                    alt="DC Photo 6" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="6">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.21 (1).jpeg"
+                                    alt="DC Photo 7" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="7">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.21.jpeg"
+                                    alt="DC Photo 8" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="8">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.22 (1).jpeg"
+                                    alt="DC Photo 9" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="9">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.22.jpeg"
+                                    alt="DC Photo 10" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="10">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.23.jpeg"
+                                    alt="DC Photo 11" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="11">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.24 (1).jpeg"
+                                    alt="DC Photo 12" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="12">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.24 (2).jpeg"
+                                    alt="DC Photo 13" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="13">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.25 (1).jpeg"
+                                    alt="DC Photo 14" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="14">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.25.jpeg"
+                                    alt="DC Photo 15" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="15">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.26.jpeg"
+                                    alt="DC Photo 16" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="16">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.27 (1).jpeg"
+                                    alt="DC Photo 17" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="17">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.27 (2).jpeg"
+                                    alt="DC Photo 18" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="18">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.27.jpeg"
+                                    alt="DC Photo 19" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="19">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.28.jpeg"
+                                    alt="DC Photo 20" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="20">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.29.jpeg"
+                                    alt="DC Photo 21" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="21">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.30.jpeg"
+                                    alt="DC Photo 22" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="22">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.31.jpeg"
+                                    alt="DC Photo 23" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="23">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.33.jpeg"
+                                    alt="DC Photo 24" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="24">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.34.jpeg"
+                                    alt="DC Photo 25" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="25">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.35.jpeg"
+                                    alt="DC Photo 26" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="26">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.36.jpeg"
+                                    alt="DC Photo 27" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="27">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.38.jpeg"
+                                    alt="DC Photo 28" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="28">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.40.jpeg"
+                                    alt="DC Photo 29" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="29">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.42 (1).jpeg"
+                                    alt="DC Photo 30" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="30">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.42.jpeg"
+                                    alt="DC Photo 31" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="31">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.44.jpeg"
+                                    alt="DC Photo 32" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="32">
+                                <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.45.jpeg"
+                                    alt="DC Photo 33" loading="lazy" decoding="async">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WE Data Center & Network Lab Modal -->
+    <div id="modal-we-datacenter" class="training-modal" aria-hidden="true">
+        <div class="training-modal-card">
+            <span class="training-modal-close" data-modal="modal-we-datacenter">&times;</span>
+            <div class="training-modal-body">
+                <div class="training-panel we-datacenter-panel">
+                    <div class="training-copy">
+                        <span class="training-badge">
+                            <img src="assets/we_logo.png" alt="WE Logo" class="training-badge-logo" loading="lazy" decoding="async">
+                            <span class="training-kicker-text-dc">WE TELECOM EGYPT | DATA CENTER & NETWORK LAB</span>
+                        </span>
+                        <h3 class="training-title-dc">WE Data Center & Network Infrastructure Lab</h3>
+                        <div class="training-intro-dc">
+                            <p> <strong>Enterprise Data Center Infrastructure & Advanced Network Topologies</strong> </p>
+                            <p>Comprehensive inspection and technical overview of Telecom Egypt (WE) enterprise data center facility, structured server rack deployments, high-performance optical fiber distribution, and simulated network topologies using Cisco Packet Tracer for routing protocol validation and traffic optimization.</p>
+                            <p> <strong>Key Infrastructure & Technical Highlights:</strong></p>
+                            <ul>
+                                <li> <strong>High-Density Server Racks:</strong> Industrial server cabinets with structured cable management, color-coded patch cords, and optical patch panels for optimal thermal management.</li>
+                                <li> <strong>Power Distribution & Backup:</strong> Redundant dual-feed power distribution units (PDUs) with real-time telemetry and industrial UPS protection.</li>
+                                <li> <strong>Cisco Network Architecture:</strong> Multi-tier core/distribution/access switching topologies, inter-VLAN routing, OSPF protocol convergence, and robust ACL security policies.</li>
+                                <li> <strong>Zero-Trust Monitoring:</strong> Continuous link monitoring, packet inspection with Wireshark, and physical access verification.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="training-slider-wrapper" aria-label="WE Data Center project images slider">
+                        <div class="training-showcase">
+                            <div class="training-slides">
+                                <div class="training-slide active" data-index="0">
+                                    <img src="assets/we datacenter/we_datacenter_1.jpg" alt="WE Data Center Server Racks" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>WE Data Center - High-Density Server Racks & Cable Routing</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="1">
+                                    <img src="assets/we datacenter/we_datacenter_2.jpg" alt="WE Data Center Infrastructure" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>WE Data Center - Optical Fiber Infrastructure & Patch Panels</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="2">
+                                    <img src="assets/we datacenter/we_datacenter_3.jpg" alt="Network Monitoring & Telecom Racks" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Network Operation Center & Power Distribution</h3>
+                                    </div>
+                                </div>
+                                <div class="training-slide" data-index="3">
+                                    <img src="assets/we datacenter/we_datacenter_4.jpg" alt="Cisco Network Topology Lab" loading="lazy" decoding="async">
+                                    <div class="training-slide-caption">
+                                        <h3>Cisco Network Infrastructure & Server Chassis Testing</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="training-slider-controls">
+                                <button class="training-ctrl-btn prev-btn" aria-label="Previous Slide"><i class='bx bx-chevron-left'></i></button>
+                                <button class="training-ctrl-btn play-pause-btn" aria-label="Play/Pause Slider"><i class='bx bx-pause'></i></button>
+                                <button class="training-ctrl-btn next-btn" aria-label="Next Slide"><i class='bx bx-chevron-right'></i></button>
+                            </div>
+                        </div>
+                        <div class="training-thumbs" aria-label="WE Data Center Thumbnails">
+                            <div class="training-thumb active" data-index="0">
+                                <img src="assets/we datacenter/we_datacenter_1.jpg" alt="WE DC Thumb 1" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="1">
+                                <img src="assets/we datacenter/we_datacenter_2.jpg" alt="WE DC Thumb 2" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="2">
+                                <img src="assets/we datacenter/we_datacenter_3.jpg" alt="WE DC Thumb 3" loading="lazy" decoding="async">
+                            </div>
+                            <div class="training-thumb" data-index="3">
+                                <img src="assets/we datacenter/we_datacenter_4.jpg" alt="WE DC Thumb 4" loading="lazy" decoding="async">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading" data-i18n="about_heading">About <span>Me</span></h2>
+            <h3>Software Engineer & Multidisciplinary Specialist</h3>
+
+            <p class="about-intro">
+                Technology has never been just a career for me—it's a passion that drives me to continuously learn,
+                build, and innovate. My journey began with a strong curiosity to understand how technology works behind
+                the scenes, evolving into cross-disciplinary expertise that seamlessly combines
+                <strong>engineering</strong>, <strong>infrastructure</strong>, <strong>security</strong>, and
+                <strong>design</strong>.
+            </p>
+
+            <!-- Feature Cards Grid -->
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-card-icon"><i class='bx bx-code-alt'></i></div>
+                    <h4>Software Engineering</h4>
+                    <p>Building modern, scalable, and high-performance applications with clean architecture and a strong
+                        focus on user experience, maintainability, and security.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-card-icon"><i class='bx bx-server'></i></div>
+                    <h4>Infrastructure & Systems</h4>
+                    <p>Practical background in IT Support & System Administration—managing enterprise Windows/Linux
+                        servers, network architecture, and system reliability.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-card-icon"><i class='bx bx-palette'></i></div>
+                    <h4>Design & Brand Identity</h4>
+                    <p>Created over <strong>1,200+ professional designs</strong> including brand identities, logos,
+                        marketing campaigns, and digital assets for companies & universities.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-card-icon"><i class='bx bx-shield-quarter'></i></div>
+                    <h4>Security & Strategy</h4>
+                    <p>Integrating security best practices into software architecture, understanding how infrastructure,
+                        servers, and cybersecurity protect real-world systems.</p>
+                </div>
+            </div>
+
+            <!-- Role Badges -->
+            <div class="about-badges">
+                <span class="about-badge"><i class='bx bx-code-block'></i> Software Engineer</span>
+                <span class="about-badge"><i class='bx bx-layer'></i> Full-Stack Developer</span>
+                <span class="about-badge"><i class='bx bx-cog'></i> System Administrator</span>
+                <span class="about-badge"><i class='bx bx-support'></i> IT Specialist</span>
+                <span class="about-badge"><i class='bx bx-paint'></i> Graphic Designer</span>
+                <span class="about-badge"><i class='bx bx-lock-alt'></i> Cybersecurity Enthusiast</span>
+            </div>
+
+            <!-- Quote Container -->
+            <div class="about-quote">
+                <i class='bx bxs-quote-left quote-icon'></i>
+                <p>"Building technology with logic, securing it with knowledge, and bringing it to life through design."
+                </p>
+            </div>
+
+            <!-- Animated Counters -->
+            <div class="counters">
+                <div class="counter-box">
+                    <h3 class="counter" data-target="3">0</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="1200">0</h3>
+                    <p>Designs Created</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="50">0</h3>
+                    <p>Systems Supported</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="1000">0</h3>
+                    <p>Users Handled</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading" data-i18n="skills_heading">My <span>Skills</span></h2>
+        <div class="skills-grid">
+            <!-- Card 1: Systems & Core Infrastructure -->
+            <div class="skills-card">
+                <div class="skills-card-header">
+                    <i class='bx bx-server'></i>
+                    <h3>Systems & Infrastructure</h3>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-name-percent">
+                            <span>System Administration (Windows/Linux)</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-percent">
+                            <span>Active Directory & GPO</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Windows Server</span>
+                    <span class="skill-tag">RedHat Linux</span>
+                    <span class="skill-tag">Virtualization</span>
+                    <span class="skill-tag">Backup Systems</span>
+                </div>
+            </div>
+
+            <!-- Card 2: Networking & Connectivity -->
+            <div class="skills-card">
+                <div class="skills-card-header">
+                    <i class='bx bx-git-branch'></i>
+                    <h3>Networking & Hardware</h3>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-name-percent">
+                            <span>TCP/IP, Routing & Switching</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-percent">
+                            <span>VLANs & Network Security</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Cisco (CCNA)</span>
+                    <span class="skill-tag">DNS/DHCP</span>
+                    <span class="skill-tag">VPN Config</span>
+                    <span class="skill-tag">Packet Tracer</span>
+                </div>
+            </div>
+
+            <!-- Card 3: Cybersecurity & Auditing -->
+            <div class="skills-card">
+                <div class="skills-card-header">
+                    <i class='bx bxs-shield-alt-2'></i>
+                    <h3>Cybersecurity</h3>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-name-percent">
+                            <span>Vulnerability Assessment & Audit</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-percent">
+                            <span>Network Traffic Analysis</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">CEH</span>
+                    <span class="skill-tag">Nmap Scanning</span>
+                    <span class="skill-tag">Wireshark</span>
+                    <span class="skill-tag">Security Policies</span>
+                </div>
+            </div>
+
+            <!-- Card 4: Support & Cloud Operations -->
+            <div class="skills-card">
+                <div class="skills-card-header">
+                    <i class='bx bx-support'></i>
+                    <h3>Cloud & IT Support</h3>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-name-percent">
+                            <span>IT Support & Troubleshooting</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-percent">
+                            <span>Cloud Operations (AWS)</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">AWS Certified</span>
+                    <span class="skill-tag">Hardware Diagnostics</span>
+                    <span class="skill-tag">User Helpdesk</span>
+                    <span class="skill-tag">SLA Management</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <h2 class="heading" data-i18n="exp_heading">My <span>Experience</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-icon"><img src="assets/eng_derman_logo.png"
+                            alt="ENG-DERMAN Software Solutions Logo" loading="lazy" decoding="async"></div>
+                    <h3>Software Engineer</h3>
+                    <h4>ENG-DERMAN (Remote &bull; Present)</h4>
+                    <p>Architecting and developing cutting-edge software solutions, enterprise web applications, and scalable digital platforms with clean architecture and modern technologies.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-icon"><img src="assets/mnu_logo_cropped.png"
+                            alt="Mansoura National University Logo" loading="lazy" decoding="async"></div>
+                    <h3>Software Engineer</h3>
+                    <h4>Mansoura National University</h4>
+                    <p>Developed and maintained internal university web systems, optimized SQL databases for academic
+                        portals, and automated administrative workflows to enhance digital operations.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-icon"><img src="assets/intilaq_logo.jpg" alt="Intilaq Group (IG) Logo" loading="lazy" decoding="async"></div>
+                    <h3>IT Engineer & System Admin</h3>
+                    <h4>Intilaq Group - IG (FEB 2024 - Present)</h4>
+                    <p>Developed and managed 5+ enterprise systems at IG (Intilaq Group) — including ERP, Ibn Al-Haitham, LMS, Al-Zahraa, and Ibn Sina. Provided technical support for 300+ users, optimized reliability, and maintained high availability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading" data-i18n="edu_heading">My <span>Education</span></h2>
+        <div class="education-container">
+            <div class="education-card">
+                <div class="education-logos-header">
+                    <div class="education-icon"><img src="assets/mansoura_university_logo.png"
+                            alt="Mansoura University Emblem Logo" class="education-logo-img" loading="lazy" decoding="async"></div>
+                    <div class="education-icon"><img src="assets/mansoura_fcis_seal.png"
+                            alt="Faculty of Computers & Information Sciences - Mansoura University Logo"
+                            class="education-logo-img" loading="lazy" decoding="async"></div>
+                </div>
+                <div class="education-date">Master's Degree &bull; Sep 2026 - Present</div>
+                <h3>Master's in Information Security</h3>
+                <h4>Mansoura University</h4>
+                <p>Advanced postgraduate master's research and academic studies specializing in information security architectures, threat intelligence, advanced cryptography, and zero-trust security frameworks.
+                </p>
+                <div class="tech-stack">
+                    <span>Sep 2026 - Present</span>
+                    <span>Information Security</span>
+                    <span>Zero Trust Architecture</span>
+                    <span>Advanced Cryptography</span>
+                    <span>Threat Intelligence</span>
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="education-logos-header">
+                    <div class="education-icon"><img src="assets/mansoura_university_logo.png"
+                            alt="Mansoura University Emblem Logo" class="education-logo-img" loading="lazy" decoding="async"></div>
+                    <div class="education-icon"><img src="assets/mansoura_fcis_seal.png"
+                            alt="Faculty of Computers & Information Sciences - Mansoura University Logo"
+                            class="education-logo-img" loading="lazy" decoding="async"></div>
+                </div>
+                <div class="education-date">Postgraduate Studies &bull; Jan 2026</div>
+                <h3>Postgraduate Professional Diploma in Information Security</h3>
+                <h4>Mansoura University</h4>
+                <p>Graduated with <strong>84% Grade (Very Good High - جيد جداً مرتفع)</strong>, specializing in information security, vulnerability assessment, threat
+                    analysis, system security hardening, digital forensics, and organizational security and protection.
+                </p>
+                <div class="tech-stack">
+                    <span>Grade: 84% (Very Good High)</span>
+                    <span>Vulnerability Assessment</span>
+                    <span>Threat Analysis</span>
+                    <span>System Hardening</span>
+                    <span>Digital Forensics</span>
+                    <span>Organizational Protection</span>
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="education-logos-header">
+                    <div class="education-icon"><img src="assets/mansoura_university_logo.png"
+                            alt="Mansoura University Emblem Logo" class="education-logo-img" loading="lazy" decoding="async"></div>
+                    <div class="education-icon"><img src="assets/mansoura_fcis_seal.png"
+                            alt="Faculty of Computers & Information Sciences - Mansoura University Logo"
+                            class="education-logo-img" loading="lazy" decoding="async"></div>
+                </div>
+                <div class="education-date">Undergraduate &bull; Jan 2023</div>
+                <h3>Bachelor's Degree in Information Systems</h3>
+                <h4>Mansoura University</h4>
+                <p>Graduated with <strong>90% Grade (Excellent with Honors)</strong>, specializing in Information
+                    Systems, software development, database systems, and core system architecture.</p>
+                <div class="tech-stack">
+                    <span>Grade: 90% (Honors)</span>
+                    <span>Information Systems</span>
+                    <span>Software Development</span>
+                    <span>Database Systems</span>
+                    <span>System Architecture</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading" data-i18n="projects_heading">Featured <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-card open-modal-btn" data-modal="modal-datacenter" style="cursor: pointer;">
+                <div class="project-img">
+                    <img src="assets/data center/WhatsApp Image 2026-08-13 at 15.12.24.jpeg"
+                        alt="MNU DATA CENTER Preliminary Handover" loading="lazy" decoding="async">
+                    <div class="project-card-badge">
+                        <img src="assets/mnu_logo_cropped.png" alt="MNU Logo" loading="lazy" decoding="async">
+                        <span>MNU DATA CENTER</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="#" class="open-modal-btn" data-modal="modal-datacenter">
+                            <img src="assets/mnu_logo_cropped.png" alt="MNU Logo" class="project-overlay-logo" loading="lazy" decoding="async">
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3 data-i18n="project_datacenter_title">MNU DATA CENTER - Preliminary Acceptance & Handover</h3>
+                    <p data-i18n="project_datacenter_desc">State-of-the-art enterprise MNU DATA CENTER preliminary
+                        handover — featuring high-density server rack deployment, smart HVAC precision cooling, dual-bus
+                        UPS power redundancy, optical fiber backbones, and zero-trust security infrastructure.</p>
+                    <div class="tech-stack">
+                        <span>#DataCenter</span><span>#ServerRacks</span><span>#PrecisionCooling</span><span>#UPS_Power</span><span>#FiberOptics</span><span>#ZeroTrust</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/project_erp.png" alt="ERP System Support" loading="lazy" decoding="async">
+                    <div class="project-overlay">
+                        <a href="#contact"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>ERP System Support & Optimization</h3>
+                    <p>Streamlined ERP operations, improved database response times, and implemented secure access
+                        controls for enterprise users.</p>
+                    <div class="tech-stack">
+                        <span>Windows Server</span><span>SQL</span><span>ERP</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card open-modal-btn" data-modal="modal-we-datacenter" style="cursor: pointer;">
+                <div class="project-img project-slider-container">
+                    <div class="project-card-badge">
+                        <img src="assets/we_logo.png" alt="WE Logo" loading="lazy" decoding="async">
+                        <span>WE DATA CENTER</span>
+                    </div>
+                    <div class="project-slides-we">
+                        <img src="assets/we datacenter/we_datacenter_1.jpg" alt="WE Telecom Data Center & Network Lab 1" class="project-slide-we-img active" loading="lazy" decoding="async">
+                        <img src="assets/we datacenter/we_datacenter_2.jpg" alt="WE Telecom Data Center & Network Lab 2" class="project-slide-we-img" loading="lazy" decoding="async">
+                        <img src="assets/we datacenter/we_datacenter_3.jpg" alt="WE Telecom Data Center & Network Lab 3" class="project-slide-we-img" loading="lazy" decoding="async">
+                        <img src="assets/we datacenter/we_datacenter_4.jpg" alt="WE Telecom Data Center & Network Lab 4" class="project-slide-we-img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="project-slider-dots">
+                        <span class="p-dot active" data-index="0"></span>
+                        <span class="p-dot" data-index="1"></span>
+                        <span class="p-dot" data-index="2"></span>
+                        <span class="p-dot" data-index="3"></span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="#" class="open-modal-btn" data-modal="modal-we-datacenter">
+                            <img src="assets/we_logo.png" alt="WE Logo" class="project-overlay-logo" loading="lazy" decoding="async">
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>WE Data Center & Network Troubleshooting Lab</h3>
+                    <p>Telecom Egypt (WE) enterprise data center infrastructure, high-density server rack deployment, optical fiber backbones, and simulated network topologies using Cisco Packet Tracer.</p>
+                    <div class="tech-stack">
+                        <span>WE Data Center</span><span>Cisco</span><span>VLANs</span><span>Routing</span><span>Fiber Optics</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img project-slider-container event-slider-container">
+                    <div class="project-slides-event">
+                        <img src="assets/ايفينت استقبال الطلبة/1.jpeg" alt="New Students Welcome Event 1" class="project-slide-event-img active" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/2.jpeg" alt="New Students Welcome Event 2" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.28.jpeg" alt="New Students Welcome Event 3" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.29.jpeg" alt="New Students Welcome Event 4" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.29 (1).jpeg" alt="New Students Welcome Event 5" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.29 (2).jpeg" alt="New Students Welcome Event 6" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.29 (3).jpeg" alt="New Students Welcome Event 7" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.29 (4).jpeg" alt="New Students Welcome Event 8" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.30.jpeg" alt="New Students Welcome Event 9" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.30 (1).jpeg" alt="New Students Welcome Event 10" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.30 (2).jpeg" alt="New Students Welcome Event 11" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.30 (3).jpeg" alt="New Students Welcome Event 12" class="project-slide-event-img" loading="lazy" decoding="async">
+                        <img src="assets/ايفينت استقبال الطلبة/WhatsApp Image 2026-10-04 at 01.51.30 (4).jpeg" alt="New Students Welcome Event 13" class="project-slide-event-img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="project-slider-dots event-slider-dots">
+                        <span class="p-dot active" data-index="0"></span><span class="p-dot" data-index="1"></span><span class="p-dot" data-index="2"></span><span class="p-dot" data-index="3"></span><span class="p-dot" data-index="4"></span><span class="p-dot" data-index="5"></span><span class="p-dot" data-index="6"></span><span class="p-dot" data-index="7"></span><span class="p-dot" data-index="8"></span><span class="p-dot" data-index="9"></span><span class="p-dot" data-index="10"></span><span class="p-dot" data-index="11"></span><span class="p-dot" data-index="12"></span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="#contact"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>New Students Welcome Event</h3>
+                    <p>Welcoming new students and introducing them to the university community, academic life, and available student services.</p>
+                    <div class="tech-stack">
+                        <span>Student Welcome</span><span>University Event</span><span>Mansoura National University</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scientific Research Section -->
+    <section class="research" id="research">
+        <h2 class="heading" data-i18n="research_heading">Scientific <span>Research</span></h2>
+
+        <div class="research-unified-card">
+            <!-- Integrated Photo Gallery Slider -->
+            <div class="research-carousel-wrapper">
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <!-- Slide 0 - Main Research Image -->
+                        <div class="carousel-slide active" data-index="0">
+                            <div class="research-card-ui">
+                                <div class="research-card-img">
+                                    <img src="assets/research_main.png"
+                                        alt="Faculty of Computers & Information Sciences — Mansoura University" loading="lazy" decoding="async">
+                                </div>
+                                <div class="research-card-body">
+                                    <span class="research-card-date">July 9, 2026</span>
+                                    <h4 class="research-card-title">Faculty of Computers & Information Sciences —
+                                        Mansoura University</h4>
+                                    <span class="research-card-category">Research</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 1 -->
+                        <div class="carousel-slide" data-index="1">
+                            <div class="research-card-ui">
+                                <div class="research-card-img">
+                                    <img src="assets/research_3.jpg" alt="Zero Trust Architecture Research Title Slide" loading="lazy" decoding="async">
+                                </div>
+                                <div class="research-card-body">
+                                    <span class="research-card-date">July 26, 2026</span>
+                                    <h4 class="research-card-title">Zero Trust Architecture Research Title Slide</h4>
+                                    <span class="research-card-category">Research</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-slide" data-index="2">
+                            <div class="research-card-ui">
+                                <div class="research-card-img">
+                                    <img src="assets/research_4.jpg" alt="Zero Trust Architecture Security Infographic" loading="lazy" decoding="async">
+                                </div>
+                                <div class="research-card-body">
+                                    <span class="research-card-date">July 25, 2026</span>
+                                    <h4 class="research-card-title">Zero Trust Architecture Security Infographic</h4>
+                                    <span class="research-card-category">Security</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="carousel-slide" data-index="3">
+                            <div class="research-card-ui">
+                                <div class="research-card-img">
+                                    <img src="assets/research_1.jpg"
+                                        alt="Research Discussion with Supervisors & Committee" loading="lazy" decoding="async">
+                                </div>
+                                <div class="research-card-body">
+                                    <span class="research-card-date">July 24, 2026</span>
+                                    <h4 class="research-card-title">Research Discussion with Supervisors & Committee
+                                    </h4>
+                                    <span class="research-card-category">Academic</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="carousel-slide" data-index="4">
+                            <div class="research-card-ui">
+                                <div class="research-card-img">
+                                    <img src="assets/research_2.jpg" alt="Research Presentation & Discussion Group" loading="lazy" decoding="async">
+                                </div>
+                                <div class="research-card-body">
+                                    <span class="research-card-date">July 23, 2026</span>
+                                    <h4 class="research-card-title">Research Presentation & Discussion Group</h4>
+                                    <span class="research-card-category">Event</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 5 -->
+                        <div class="carousel-slide" data-index="5">
+                            <div class="research-card-ui">
+                                <div class="research-card-img">
+                                    <img src="assets/research_5.jpg" alt="Academic Discussion Ceremony Photo" loading="lazy" decoding="async">
+                                </div>
+                                <div class="research-card-body">
+                                    <span class="research-card-date">July 22, 2026</span>
+                                    <h4 class="research-card-title">Academic Discussion Ceremony Photo</h4>
+                                    <span class="research-card-category">Ceremony</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="carousel-btn prev-btn" aria-label="Previous Slide">&#10094;</button>
+                <button type="button" class="carousel-btn next-btn" aria-label="Next Slide">&#10095;</button>
+
+                <div class="carousel-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                    <span class="dot" data-index="3"></span>
+                    <span class="dot" data-index="4"></span>
+                    <span class="dot" data-index="5"></span>
+                </div>
+            </div>
+
+            <!-- Post Details and Cybersecurity Content -->
+            <div class="research-post-details">
+                <div class="research-badge-wrapper">
+                    <span class="research-badge-text" data-i18n="research_badge">First documented scientific research on
+                        using Zero Trust in university e-learning systems.</span>
+                </div>
+
+                <h3 class="research-post-title" data-i18n="research_title">Securing Generative AI Applications Using
+                    Zero Trust Architecture</h3>
+                <p class="research-post-desc" data-i18n="research_desc">A comprehensive security framework designed for
+                    protecting sensitive data, identity credentials, and GenAI models in Higher Education Institutions.
+                </p>
+
+                <!-- Expanded Cybersecurity Highlights -->
+                <div class="research-cyber-details">
+                    <h4 class="cyber-details-heading" data-i18n="research_cyber_heading">
+                        <i class='bx bx-shield-quarter'></i> Cybersecurity Pillars & Architecture Details
+                    </h4>
+
+                    <div class="cyber-features-grid">
+                        <div class="cyber-feature-card">
+                            <div class="cyber-icon"><i class='bx bx-lock-alt'></i></div>
+                            <div class="cyber-info">
+                                <h5 data-i18n="cyber_feat1_title">Zero Trust Architecture (Never Trust, Always Verify)
+                                </h5>
+                                <p data-i18n="cyber_feat1_desc">Enforces continuous identity authentication, explicit
+                                    verification for every API request, and minimal privilege access (Least Privilege)
+                                    across all e-learning platforms.</p>
+                            </div>
+                        </div>
+
+                        <div class="cyber-feature-card">
+                            <div class="cyber-icon"><i class='bx bx-bug-alt'></i></div>
+                            <div class="cyber-info">
+                                <h5 data-i18n="cyber_feat2_title">GenAI & LLM Threat Mitigation</h5>
+                                <p data-i18n="cyber_feat2_desc">Comprehensive defense against Prompt Injection, Data
+                                    Poisoning, Model Inversion, and unauthorized data leakage in Generative AI
+                                    workflows.</p>
+                            </div>
+                        </div>
+
+                        <div class="cyber-feature-card">
+                            <div class="cyber-icon"><i class='bx bx-network-chart'></i></div>
+                            <div class="cyber-info">
+                                <h5 data-i18n="cyber_feat3_title">Micro-Segmentation & Network Isolation</h5>
+                                <p data-i18n="cyber_feat3_desc">Isolates AI processing engines and confidential
+                                    university databases to prevent lateral movement and contain potential security
+                                    breaches.</p>
+                            </div>
+                        </div>
+
+                        <div class="cyber-feature-card">
+                            <div class="cyber-icon"><i class='bx bx-key'></i></div>
+                            <div class="cyber-info">
+                                <h5 data-i18n="cyber_feat4_title">Data Privacy & End-to-End Encryption</h5>
+                                <p data-i18n="cyber_feat4_desc">Implements robust E2EE for data at rest and in transit,
+                                    combined with Attribute-Based Access Control (ABAC) for sensitive student and
+                                    faculty records.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cybersecurity Tech Stack / Tags -->
+                    <div class="cyber-tags">
+                        <span class="cyber-tag"><i class='bx bx-shield'></i> Zero Trust</span>
+                        <span class="cyber-tag"><i class='bx bx-chip'></i> Generative AI</span>
+                        <span class="cyber-tag"><i class='bx bx-lock-header'></i> LLM Security</span>
+                        <span class="cyber-tag"><i class='bx bx-network-chart'></i> Micro-segmentation</span>
+                        <span class="cyber-tag"><i class='bx bx-user-check'></i> Identity IAM</span>
+                        <span class="cyber-tag"><i class='bx bx-code-block'></i> Prompt Injection Defense</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <h2 class="heading" data-i18n="cert_heading">Licenses & <span>Certifications</span></h2>
+        <div class="cert-container">
+            <div class="cert-card" data-cert-img="assets/الشهادات/Ethical_Hacker_certificate_mohaa404-mansnu-edu-eg_f4b0d484-bf57-4759-8ef3-c9658565c8d0 (1)_page-0001.jpg">
+                <i class='bx bx-shield-quarter'></i>
+                <h3>CEH</h3>
+                <p>Certified Ethical Hacker (Cisco Academy)</p>
+                <span class="view-cert-btn" data-i18n="cert_view_btn">View Certificate</span>
+            </div>
+            <div class="cert-card" data-cert-img="assets/الشهادات/CCNA-_Switching-_Routing-_and_Wireless_Essentials_certificate_mohaa404-mansnu-edu-eg_d41b1dcc-d0fb-4147-9dbd-c2e14be54839_page-0001.jpg">
+                <i class='bx bx-network-chart'></i>
+                <h3>CCNA</h3>
+                <p>Routing & Switching (Cisco Academy)</p>
+                <span class="view-cert-btn" data-i18n="cert_view_btn">View Certificate</span>
+            </div>
+            <div class="cert-card" data-cert-img="assets/الشهادات/redhat_sysadmin.jpg">
+                <i class='bx bxl-redhat'></i>
+                <h3>Red Hat</h3>
+                <p>System Administration (Mahara-Tech)</p>
+                <span class="view-cert-btn" data-i18n="cert_view_btn">View Certificate</span>
+            </div>
+            <div class="cert-card" data-cert-img="assets/الشهادات/aws_cert.jpg">
+                <i class='bx bxl-aws'></i>
+                <h3>AWS Cloud & ML</h3>
+                <p>Machine Learning & Cloud Fundamentals</p>
+                <span class="view-cert-btn" data-i18n="cert_view_btn">View Certificate</span>
+            </div>
+            <div class="cert-card" data-cert-img="assets/الشهادات/python_depi_cert.jpg">
+                <i class='bx bxl-python'></i>
+                <h3>Python Programming</h3>
+                <p>DEPI Certification</p>
+                <span class="view-cert-btn" data-i18n="cert_view_btn">View Certificate</span>
+            </div>
+            <div class="cert-card" data-cert-img="assets/الشهادات/ubuntu_linux_essentials.jpg">
+                <i class='bx bxl-tux'></i>
+                <h3>Linux Essentials</h3>
+                <p>Cisco Networking Academy</p>
+                <span class="view-cert-btn" data-i18n="cert_view_btn">View Certificate</span>
+            </div>
+            <div class="cert-card" data-cert-img="assets/الشهادات/Introduction_to_Cybersecurity_certificate_mohaa404-mansnu-edu-eg_d7bc57eb-5253-4297-a3fc-a199b68b25b5 (1)_page-0001.jpg">
+                <i class='bx bx-lock-alt'></i>
+                <h3>Cybersecurity</h3>
+                <p>Introduction to Cybersecurity (Cisco)</p>
+                <span class="view-cert-btn" data-i18n="cert_view_btn">View Certificate</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading" data-i18n="contact_heading">Contact <span>Me</span></h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class='bx bx-envelope'></i>
+                    <div>
+                        <h4>Personal Email</h4>
+                        <p><a href="mailto:mohamedhamedsallam14@gmail.com">mohamedhamedsallam14@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-briefcase'></i>
+                    <div>
+                        <h4>Professional Email</h4>
+                        <p><a href="mailto:mohamed@mohamedsallam.dev">mohamed@mohamedsallam.dev</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-graduation'></i>
+                    <div>
+                        <h4>Mansoura University</h4>
+                        <p><a href="mailto:mhamedsallam@mans.edu.eg">mhamedsallam@mans.edu.eg</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class='bx bxs-graduation'></i>
+                    <div>
+                        <h4>Mansoura National Univ.</h4>
+                        <p><a href="mailto:eng.mohamedsallam@mansnu.edu.eg">eng.mohamedsallam@mansnu.edu.eg</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-phone'></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p><a href="tel:01065401273">01065401273</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-map'></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p><a href="https://maps.google.com/?q=Mansoura,Egypt" target="_blank">Mansoura, Egypt</a></p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" aria-labelledby="contact-form-title">
+                <h3 id="contact-form-title">Send Message</h3>
+                <div class="input-box">
+                    <label class="sr-only" for="contact-name">Full Name</label>
+                    <input id="contact-name" name="name" type="text" placeholder="Full Name" autocomplete="name" required>
+                    <label class="sr-only" for="contact-email">Email Address</label>
+                    <input id="contact-email" name="email" type="email" placeholder="Email Address" autocomplete="email" required>
+                </div>
+                <div class="input-box">
+                    <label class="sr-only" for="contact-subject">Subject / Topic</label>
+                    <input id="contact-subject" name="subject" type="text" placeholder="Subject / Topic" required>
+                </div>
+                <label class="sr-only" for="contact-message">Your Message</label>
+                <textarea id="contact-message" name="message" cols="30" rows="6" placeholder="Your Message..." required></textarea>
+                <button type="submit" class="btn">Send Message <i class='bx bx-paper-plane'></i></button>
+                <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-stats-section">
+            <div class="footer-stats-grid">
+                <!-- Visitor Counter Card -->
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-icon-wrapper visit-bg">
+                            <i class='bx bx-show'></i>
+                        </div>
+                        <div class="stat-live-badge">
+                            <span class="pulse-dot green"></span>
+                            <span data-i18n="stats_live">Live</span>
+                        </div>
+                    </div>
+                    <div class="stat-body">
+                        <h4 class="stat-number" id="visit-count">24,580</h4>
+                        <p class="stat-label" data-i18n="stats_visits">Total Visitors</p>
+                    </div>
+                </div>
+
+                <!-- Interactive Like Counter Card -->
+                <div class="stat-card stat-card-interactive">
+                    <div class="stat-header">
+                        <div class="stat-icon-wrapper like-bg">
+                            <i class='bx bxs-heart'></i>
+                        </div>
+                        <button id="like-btn" class="like-action-btn" aria-label="Like Website">
+                            <i class='bx bx-heart' id="like-icon"></i>
+                            <span id="like-btn-text" data-i18n="stats_like_btn">Like Site</span>
+                        </button>
+                    </div>
+                    <div class="stat-body">
+                        <h4 class="stat-number" id="like-count">15,340</h4>
+                        <p class="stat-label" data-i18n="stats_likes">Website Likes</p>
+                    </div>
+                </div>
+
+                <!-- System Status Card -->
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-icon-wrapper status-bg">
+                            <i class='bx bx-pulse'></i>
+                        </div>
+                        <div class="stat-live-badge blue-badge">
+                            <span class="pulse-dot blue"></span>
+                            <span data-i18n="stats_status_online">Online</span>
+                        </div>
+                    </div>
+                    <div class="stat-body">
+                        <h4 class="stat-number status-value" data-i18n="stats_system_status">Active System</h4>
+                        <p class="stat-label" data-i18n="stats_status">System Status</p>
+                    </div>
+                </div>
+
+                <!-- User Rating Card -->
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-icon-wrapper star-bg">
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="stat-stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                    </div>
+                    <div class="stat-body">
+                        <h4 class="stat-number">4.9 / 5.0</h4>
+                        <p class="stat-label" data-i18n="stats_rating">User Rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-text">
+                <p>Copyright &copy;| All Rights Reserved by ENG Mohamed Hamed Sallam .</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home" aria-label="Scroll to top"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Lightbox Modal -->
+    <div id="cert-lightbox" class="cert-lightbox" aria-hidden="true">
+        <span class="cert-lightbox-close">&times;</span>
+        <div class="cert-lightbox-card">
+            <img id="cert-lightbox-img" src="" alt="Certificate Image Preview" loading="lazy" decoding="async">
+            <div class="cert-lightbox-caption">
+                <h3 id="cert-lightbox-title">Certificate Title</h3>
+                <p id="cert-lightbox-desc">Certificate Description</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Lightbox Modal for Research and Training Slides -->
+    <div id="gallery-lightbox" class="lightbox" aria-hidden="true">
+        <span class="lightbox-close">&times;</span>
+        <button class="carousel-btn lightbox-prev" aria-label="Previous Slide">&#10094;</button>
+        <img class="lightbox-content" id="gallery-lightbox-img" src="" alt="Gallery Image Preview" loading="lazy" decoding="async">
+        <button class="carousel-btn lightbox-next" aria-label="Next Slide">&#10095;</button>
+        <div class="lightbox-caption" id="gallery-lightbox-cap"></div>
+    </div>
+
+    <!-- ScrollReveal and Typed.js for Animations -->
+    <script defer src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Particles.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!-- Custom JS -->
+    <script defer src="script.js"></script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mohamed Hamed Sallam",
+        "jobTitle": "Software Engineer",
+        "url": "https://mohamedsallam.dev",
+        "email": "mailto:mohamedhamedsallam14@gmail.com",
+        "sameAs": [
+            "https://www.linkedin.com/in/mohamed-hamed-sallam-87a15b3a0",
+            "https://github.com/mohamedhamedsallam-glitch"
+        ]
+    }
+    </script>
+
+</body>
+
+</html>

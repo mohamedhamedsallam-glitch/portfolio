@@ -1,0 +1,311 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>Mohamed Hamed Sallam - CV</title>
+<!--[if gte mso 9]>
+<xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>100</w:Zoom>
+  <w:DoNotOptimizeForBrowser/>
+ </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+@page {
+    size: A4;
+    margin: 2.0cm 2.0cm 2.0cm 2.0cm;
+    mso-header-margin: 1cm;
+    mso-footer-margin: 1cm;
+}
+body {
+    font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.38;
+    color: #2C2C2C;
+    background: #FFFFFF;
+}
+h1 {
+    font-size: 24pt;
+    color: #0C8CE9;
+    margin: 0 0 4pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    font-weight: bold;
+}
+.title-sub {
+    font-size: 12.5pt;
+    color: #383838;
+    font-weight: 600;
+    margin-bottom: 8pt;
+}
+.contact-bar {
+    font-size: 9.5pt;
+    color: #444444;
+    border-top: 1.5pt solid #0C8CE9;
+    border-bottom: 1pt solid #E5E7EB;
+    padding: 6pt 0;
+    margin-bottom: 14pt;
+    line-height: 1.6;
+}
+.contact-bar a {
+    color: #0C8CE9;
+    text-decoration: none;
+}
+h2 {
+    font-size: 12.5pt;
+    color: #0C8CE9;
+    border-bottom: 1.5pt solid #0C8CE9;
+    padding-bottom: 2pt;
+    margin-top: 15pt;
+    margin-bottom: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+.entry {
+    margin-bottom: 11pt;
+}
+.entry-title {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #000000;
+}
+.entry-subtitle {
+    font-size: 10.5pt;
+    color: #0C8CE9;
+    font-weight: 600;
+}
+.entry-date {
+    font-size: 9.5pt;
+    color: #555555;
+    font-style: italic;
+    text-align: right;
+}
+ul {
+    margin: 3pt 0 6pt 18pt;
+    padding: 0;
+}
+li {
+    margin-bottom: 3.5pt;
+    color: #383838;
+}
+.summary {
+    font-size: 10.5pt;
+    color: #383838;
+    text-align: justify;
+    line-height: 1.45;
+    margin-bottom: 10pt;
+}
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 4pt;
+}
+.skills-table td {
+    padding: 5pt 6pt;
+    vertical-align: top;
+    font-size: 10pt;
+    border-bottom: 0.5pt solid #F1F5F9;
+}
+.skills-label {
+    font-weight: bold;
+    color: #2C2C2C;
+    width: 26%;
+    border-right: 2pt solid #0C8CE9;
+}
+.skills-val {
+    color: #383838;
+    padding-left: 8pt !important;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align: center;">
+    <h1>Mohamed Hamed Mohamed Sallam</h1>
+    <div class="title-sub">Software Engineer | IT Systems Administrator | Cybersecurity Specialist</div>
+    <div class="contact-bar">
+        📍 Mansoura, Egypt &nbsp;|&nbsp; 
+        📞 (+20) 01065401273 &nbsp;|&nbsp; 
+        ✉️ <a href="mailto:mohamedhamedsallam14@gmail.com">mohamedhamedsallam14@gmail.com</a> &nbsp;|&nbsp;
+        ✉️ <a href="mailto:mohamed@mohamedsallam.dev">mohamed@mohamedsallam.dev</a><br>
+        🔗 <a href="https://www.linkedin.com/in/mohamed-hamed-sallam-87a15b3a0">linkedin.com/in/mohamed-hamed-sallam-87a15b3a0</a> &nbsp;|&nbsp;
+        🐙 <a href="https://github.com/mohamedhamedsallam-glitch">github.com/mohamedhamedsallam-glitch</a>
+    </div>
+</div>
+
+<h2>Professional Summary</h2>
+<p class="summary">
+Versatile and results-driven <strong>Software Engineer and IT Specialist</strong> with a solid interdisciplinary background spanning software development, enterprise systems administration, network infrastructure, and cybersecurity. Proven track record in developing high-availability academic web systems, streamlining ERP operations (ERPNext, Ibn Al-Haitham, Al-Zahraa), and leading the preliminary handover of enterprise data center facilities. Author of the first documented research on implementing <strong>Zero Trust Architecture</strong> for securing higher education generative AI and e-learning systems. Graduated with <strong>90% (Excellent with Honors)</strong> in Information Systems, and completed a Postgraduate Professional Diploma in Information Security with <strong>84% (Very Good High - جيد جداً مرتفع)</strong>.
+</p>
+
+<h2>Education & Qualifications</h2>
+<div class="entry">
+    <table style="width:100%;">
+        <tr>
+            <td class="entry-title">Postgraduate Professional Diploma in Information Security</td>
+            <td class="entry-date">Jan 2026</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="entry-subtitle">Mansoura University – Faculty of Computers & Information Sciences</td>
+        </tr>
+    </table>
+    <ul>
+        <li><strong>Cumulative Grade: 84% (Very Good High - جيد جداً مرتفع)</strong>.</li>
+        <li>Advanced postgraduate studies focusing on Information Security, Vulnerability Assessment & Management, Threat Analysis, System Hardening, Digital Forensics, and Enterprise Infrastructure Protection.</li>
+    </ul>
+</div>
+
+<div class="entry">
+    <table style="width:100%;">
+        <tr>
+            <td class="entry-title">Bachelor's Degree in Information Systems</td>
+            <td class="entry-date">Jan 2023</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="entry-subtitle">Mansoura University – Faculty of Computers & Information Sciences</td>
+        </tr>
+    </table>
+    <ul>
+        <li><strong>Cumulative Grade: 90% (Excellent with Honors - امتياز مع مرتبة الشرف)</strong>.</li>
+        <li>Specialization: Information Systems, Software Engineering, Database Systems (SQL), System Architecture, and Enterprise Digital Transformation.</li>
+    </ul>
+</div>
+
+<h2>Work Experience</h2>
+
+<div class="entry">
+    <table style="width:100%;">
+        <tr>
+            <td class="entry-title">Software Engineer (Remote)</td>
+            <td class="entry-date">Present</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="entry-subtitle">ENG-DERMAN (ENG-DERMAN Software Solutions)</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Architecting and engineering modern, scalable software solutions, enterprise web applications, and digital platforms.</li>
+        <li>Designing robust architectures adhering to clean code standards, microservices, and leading cybersecurity principles.</li>
+        <li>Delivering high-performance software systems driving digital transformation ("Ideas • Code • Real Impact").</li>
+    </ul>
+</div>
+
+<div class="entry">
+    <table style="width:100%;">
+        <tr>
+            <td class="entry-title">Software Engineer</td>
+            <td class="entry-date">Mansoura, Egypt</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="entry-subtitle">Mansoura National University (جامعة المنصورة الأهلية)</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Developed and maintained core internal university web applications, student portals, and administrative platforms.</li>
+        <li>Optimized SQL database query performance, indexing, and schema structures to handle peak academic registration loads.</li>
+        <li>Automated repetitive administrative workflows, boosting operational efficiency and accelerating university digital transformation.</li>
+        <li>Delivered comprehensive training programs for administrative and academic staff on the Al-Zahraa system update and ERPNext modules.</li>
+    </ul>
+</div>
+
+<div class="entry">
+    <table style="width:100%;">
+        <tr>
+            <td class="entry-title">IT & Systems Engineer</td>
+            <td class="entry-date">Feb 2024 – Present</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="entry-subtitle">Intilaq Group - IG (مجموعة انطلاق)</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Developed, deployed, and managed <strong>5+ major enterprise systems at IG</strong> (including enterprise ERP, Ibn Al-Haitham, LMS, Al-Zahraa, and Ibn Sina).</li>
+        <li>Provided tier-2/3 technical support and IT troubleshooting for 300+ staff members and university departments, achieving 99.9% uptime.</li>
+        <li>Managed Windows Server environments, Active Directory domains, Group Policy Objects (GPOs), user permissions, and network shares.</li>
+        <li>Conducted routine system health audits, proactive data backups, and network performance optimizations to minimize system downtime.</li>
+    </ul>
+</div>
+
+<h2>Key Projects & Infrastructure Achievements</h2>
+
+<div class="entry">
+    <div class="entry-title">MNU DATA CENTER - Preliminary Acceptance & Handover</div>
+    <ul>
+        <li>Successfully supervised the commissioning and Site Acceptance Testing (SAT) for Mansoura National University's state-of-the-art enterprise Data Center facility.</li>
+        <li>Oversaw high-density server rack enclosures, structured optical fiber and copper cabling, smart HVAC precision cooling systems, dual-bus UPS power redundancy, and Zero-Trust biometric physical security.</li>
+    </ul>
+</div>
+
+<div class="entry">
+    <div class="entry-title">ERPNext Enterprise Training & Implementation Program</div>
+    <ul>
+        <li>Led and delivered comprehensive training for managers and staff across HR, Finance, and Administration on ERPNext.</li>
+        <li>Implemented core HR workflows including payroll management for administrative staff and faculty, biometric fingerprint attendance integration, and automated executive reporting.</li>
+    </ul>
+</div>
+
+<div class="entry">
+    <div class="entry-title">Network & Cybersecurity Simulation Labs</div>
+    <ul>
+        <li>Designed and simulated enterprise network architectures using Cisco Packet Tracer, configuring VLANs, inter-VLAN routing, and ACLs.</li>
+        <li>Performed vulnerability scans, security audits, and network packet analysis using Nmap, Wireshark, and Linux security tools.</li>
+    </ul>
+</div>
+
+<h2>Scientific Research & Publications</h2>
+<div class="entry">
+    <div class="entry-title">Securing Generative AI Applications Using Zero Trust Architecture</div>
+    <div class="entry-subtitle">Faculty of Computers and Information Sciences, Mansoura University (July 2026)</div>
+    <ul>
+        <li>Pioneered the first documented scientific research addressing the practical application of <strong>Zero Trust Architecture</strong> in securing higher education e-learning platforms and Generative AI workflows.</li>
+        <li>Formulated defense frameworks against Prompt Injection, Data Poisoning, Model Inversion, and unauthorized data exfiltration.</li>
+        <li>Designed micro-segmentation and Attribute-Based Access Control (ABAC) protocols to protect sensitive student and faculty data.</li>
+    </ul>
+</div>
+
+<h2>Technical Skills & Competencies</h2>
+<table class="skills-table">
+    <tr>
+        <td class="skills-label">Systems & Servers</td>
+        <td class="skills-val">Windows Server (2016/2019/2022), Active Directory, Group Policy (GPO), Red Hat Enterprise Linux, Linux Administration, Virtualization, Backup & Disaster Recovery</td>
+    </tr>
+    <tr>
+        <td class="skills-label">Networking & Hardware</td>
+        <td class="skills-val">TCP/IP, Routing & Switching, VLANs, VPN Configuration, DNS/DHCP, Cisco Packet Tracer, Hardware Diagnostics, Structured Cabling</td>
+    </tr>
+    <tr>
+        <td class="skills-label">Cybersecurity</td>
+        <td class="skills-val">Zero Trust Architecture, Vulnerability Assessment, Wireshark Packet Analysis, Nmap Scanning, CEH Principles, Security Hardening, Access Control Policies</td>
+    </tr>
+    <tr>
+        <td class="skills-label">Software & Databases</td>
+        <td class="skills-val">Python, JavaScript, HTML5, CSS3, Relational Databases (SQL), ERP Management (ERPNext), API Integration</td>
+    </tr>
+    <tr>
+        <td class="skills-label">Cloud & IT Support</td>
+        <td class="skills-val">AWS Cloud Fundamentals, Helpdesk & Desktop Support, SLA Management, Remote Troubleshooting, System Diagnostics</td>
+    </tr>
+    <tr>
+        <td class="skills-label">Design & Media</td>
+        <td class="skills-val">Brand Identity & Digital Design (Created 1,200+ professional designs, logos, and digital campaign assets)</td>
+    </tr>
+    <tr>
+        <td class="skills-label">Languages</td>
+        <td class="skills-val">Arabic (Native) | English (Professional Working Proficiency)</td>
+    </tr>
+</table>
+
+<h2>Licenses & Certifications</h2>
+<ul>
+    <li><strong>CEH - Certified Ethical Hacker:</strong> Cisco Networking Academy</li>
+    <li><strong>CCNA - Routing & Switching:</strong> Cisco Networking Academy</li>
+    <li><strong>Red Hat System Administration:</strong> Mahara-Tech</li>
+    <li><strong>AWS Cloud & Machine Learning:</strong> Cloud & ML Fundamentals</li>
+    <li><strong>Python Programming:</strong> DEPI Certification</li>
+    <li><strong>Linux Essentials:</strong> Cisco Networking Academy</li>
+    <li><strong>Introduction to Cybersecurity:</strong> Cisco Networking Academy</li>
+</ul>
+
+</body>
+</html>
