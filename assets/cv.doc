@@ -63,7 +63,7 @@ h2 {
     letter-spacing: 0.5pt;
 }
 .entry {
-    margin-bottom: 11pt;
+    margin-bottom: 10pt;
 }
 .entry-title {
     font-size: 11pt;
@@ -94,7 +94,7 @@ li {
     color: #383838;
     text-align: justify;
     line-height: 1.45;
-    margin-bottom: 10pt;
+    margin-bottom: 9pt;
 }
 .skills-table {
     width: 100%;
@@ -123,7 +123,7 @@ li {
 
 <div style="text-align: center;">
     <h1>Mohamed Hamed Mohamed Sallam</h1>
-    <div class="title-sub">Software Engineer | IT Systems Administrator | Cybersecurity Specialist</div>
+    <div class="title-sub">Software Engineer | Systems & Infrastructure Engineer | Cybersecurity Specialist</div>
     <div class="contact-bar">
         📍 Mansoura, Egypt &nbsp;|&nbsp; 
         📞 (+20) 01065401273 &nbsp;|&nbsp; 
@@ -137,10 +137,25 @@ li {
 
 <h2>Professional Summary</h2>
 <p class="summary">
-Versatile and results-driven <strong>Software Engineer and IT Specialist</strong> with a solid interdisciplinary background spanning software development, enterprise systems administration, network infrastructure, and cybersecurity. Proven track record in developing high-availability academic web systems, streamlining ERP operations (ERPNext, Ibn Al-Haitham, Al-Zahraa), and leading the preliminary handover of enterprise data center facilities. Author of the first documented research on implementing <strong>Zero Trust Architecture</strong> for securing higher education generative AI and e-learning systems. Graduated with <strong>90% (Excellent with Honors)</strong> in Information Systems, and completed a Postgraduate Professional Diploma in Information Security with <strong>84% (Very Good High - جيد جداً مرتفع)</strong>.
+Results-driven <strong>Software Engineer and IT Systems Specialist</strong> with experience across software development, enterprise systems administration, network infrastructure, and cybersecurity. Skilled in building academic web applications, managing ERP platforms, supporting 300+ users, and contributing to enterprise data center commissioning. Researcher focused on applying <strong>Zero Trust Architecture</strong> to Generative AI and higher-education systems. Holds a Bachelor's degree in Information Systems with <strong>90% (Excellent with Honors)</strong>, a Postgraduate Professional Diploma in Information Security with <strong>84% (Very Good)</strong>, and is currently pursuing a Master's degree in Information Security.
 </p>
 
 <h2>Education & Qualifications</h2>
+<div class="entry">
+    <table style="width:100%;">
+        <tr>
+            <td class="entry-title">Master's Degree in Information Security</td>
+            <td class="entry-date">Sep 2026 – Present</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="entry-subtitle">Mansoura University – Faculty of Computers & Information Sciences</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Advanced postgraduate research and academic studies focused on information security architectures, threat intelligence, advanced cryptography, and Zero Trust security frameworks.</li>
+    </ul>
+</div>
+
 <div class="entry">
     <table style="width:100%;">
         <tr>
@@ -152,7 +167,7 @@ Versatile and results-driven <strong>Software Engineer and IT Specialist</strong
         </tr>
     </table>
     <ul>
-        <li><strong>Cumulative Grade: 84% (Very Good High - جيد جداً مرتفع)</strong>.</li>
+        <li><strong>Cumulative Grade: 84% (Very Good)</strong>.</li>
         <li>Advanced postgraduate studies focusing on Information Security, Vulnerability Assessment & Management, Threat Analysis, System Hardening, Digital Forensics, and Enterprise Infrastructure Protection.</li>
     </ul>
 </div>
@@ -168,7 +183,7 @@ Versatile and results-driven <strong>Software Engineer and IT Specialist</strong
         </tr>
     </table>
     <ul>
-        <li><strong>Cumulative Grade: 90% (Excellent with Honors - امتياز مع مرتبة الشرف)</strong>.</li>
+        <li><strong>Cumulative Grade: 90% (Excellent with Honors)</strong>.</li>
         <li>Specialization: Information Systems, Software Engineering, Database Systems (SQL), System Architecture, and Enterprise Digital Transformation.</li>
     </ul>
 </div>
@@ -199,7 +214,7 @@ Versatile and results-driven <strong>Software Engineer and IT Specialist</strong
             <td class="entry-date">Mansoura, Egypt</td>
         </tr>
         <tr>
-            <td colspan="2" class="entry-subtitle">Mansoura National University (جامعة المنصورة الأهلية)</td>
+            <td colspan="2" class="entry-subtitle">Mansoura National University</td>
         </tr>
     </table>
     <ul>
@@ -217,7 +232,7 @@ Versatile and results-driven <strong>Software Engineer and IT Specialist</strong
             <td class="entry-date">Feb 2024 – Present</td>
         </tr>
         <tr>
-            <td colspan="2" class="entry-subtitle">Intilaq Group - IG (مجموعة انطلاق)</td>
+            <td colspan="2" class="entry-subtitle">Intilaq Group (IG)</td>
         </tr>
     </table>
     <ul>
@@ -257,7 +272,7 @@ Versatile and results-driven <strong>Software Engineer and IT Specialist</strong
 <h2>Scientific Research & Publications</h2>
 <div class="entry">
     <div class="entry-title">Securing Generative AI Applications Using Zero Trust Architecture</div>
-    <div class="entry-subtitle">Faculty of Computers and Information Sciences, Mansoura University (July 2026)</div>
+    <div class="entry-subtitle">Faculty of Computers and Information Sciences, Mansoura University | July 2026</div>
     <ul>
         <li>Pioneered the first documented scientific research addressing the practical application of <strong>Zero Trust Architecture</strong> in securing higher education e-learning platforms and Generative AI workflows.</li>
         <li>Formulated defense frameworks against Prompt Injection, Data Poisoning, Model Inversion, and unauthorized data exfiltration.</li>
